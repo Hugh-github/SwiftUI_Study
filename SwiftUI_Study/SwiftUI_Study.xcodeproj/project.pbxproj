@@ -14,6 +14,10 @@
 		727010B32A0CDD7700272BDD /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B22A0CDD7700272BDD /* BindingBasic.swift */; };
 		727010B52A0CDDEA00272BDD /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B42A0CDDEA00272BDD /* SubView.swift */; };
 		727010B72A0CFA4500272BDD /* ExtractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B62A0CFA4500272BDD /* ExtractView.swift */; };
+		72836B872A0E381100CA0CB8 /* Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72836B862A0E381100CA0CB8 /* Sheet.swift */; };
+		72836B892A0E3CA700CA0CB8 /* OverLayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72836B882A0E3CA700CA0CB8 /* OverLayView.swift */; };
+		72836B8C2A0E412200CA0CB8 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72836B8B2A0E412200CA0CB8 /* Navigation.swift */; };
+		72836B8F2A0E417100CA0CB8 /* SecondNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72836B8E2A0E417100CA0CB8 /* SecondNav.swift */; };
 		72B326192A0767D3008185FC /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B326182A0767D3008185FC /* LazyGridView.swift */; };
 		72B3261B2A07723F008185FC /* ButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3261A2A07723F008185FC /* ButtonTest.swift */; };
 		72D68B462A02337000A57219 /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D68B452A02337000A57219 /* SwiftUI_StudyApp.swift */; };
@@ -34,6 +38,10 @@
 		727010B22A0CDD7700272BDD /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
 		727010B42A0CDDEA00272BDD /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
 		727010B62A0CFA4500272BDD /* ExtractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractView.swift; sourceTree = "<group>"; };
+		72836B862A0E381100CA0CB8 /* Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet.swift; sourceTree = "<group>"; };
+		72836B882A0E3CA700CA0CB8 /* OverLayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLayView.swift; sourceTree = "<group>"; };
+		72836B8B2A0E412200CA0CB8 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		72836B8E2A0E417100CA0CB8 /* SecondNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNav.swift; sourceTree = "<group>"; };
 		72B326182A0767D3008185FC /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 		72B3261A2A07723F008185FC /* ButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTest.swift; sourceTree = "<group>"; };
 		72D68B422A02337000A57219 /* SwiftUI_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +95,25 @@
 			path = PropertyWrapper;
 			sourceTree = "<group>";
 		};
+		72836B852A0E30FC00CA0CB8 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				72836B8D2A0E414500CA0CB8 /* Sheet */,
+				72836B8B2A0E412200CA0CB8 /* Navigation.swift */,
+				72836B8E2A0E417100CA0CB8 /* SecondNav.swift */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
+		72836B8D2A0E414500CA0CB8 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				72836B862A0E381100CA0CB8 /* Sheet.swift */,
+				72836B882A0E3CA700CA0CB8 /* OverLayView.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
 		72B326172A0767BE008185FC /* Day4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +149,7 @@
 				72E06C812A0602D0007F00A0 /* Day3 */,
 				72B326172A0767BE008185FC /* Day4 */,
 				727010AE2A0CD6B600272BDD /* Day5 */,
+				72836B852A0E30FC00CA0CB8 /* Day6 */,
 				72D68B492A02337100A57219 /* Assets.xcassets */,
 				72D68B4B2A02337100A57219 /* Preview Content */,
 			);
@@ -229,7 +257,9 @@
 				7201BA492A04EBDD0046A39C /* Padding.swift in Sources */,
 				72D68B482A02337000A57219 /* ContentView.swift in Sources */,
 				727010B32A0CDD7700272BDD /* BindingBasic.swift in Sources */,
+				72836B8F2A0E417100CA0CB8 /* SecondNav.swift in Sources */,
 				727010B52A0CDDEA00272BDD /* SubView.swift in Sources */,
+				72836B892A0E3CA700CA0CB8 /* OverLayView.swift in Sources */,
 				72D68B462A02337000A57219 /* SwiftUI_StudyApp.swift in Sources */,
 				72E06C852A061AB5007F00A0 /* InitEnum.swift in Sources */,
 				727010B12A0CD71200272BDD /* StateBasic.swift in Sources */,
@@ -238,7 +268,9 @@
 				7201BA452A04D50C0046A39C /* StackView.swift in Sources */,
 				727010B72A0CFA4500272BDD /* ExtractView.swift in Sources */,
 				72B326192A0767D3008185FC /* LazyGridView.swift in Sources */,
+				72836B8C2A0E412200CA0CB8 /* Navigation.swift in Sources */,
 				7201BA472A04E2830046A39C /* Background.swift in Sources */,
+				72836B872A0E381100CA0CB8 /* Sheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
