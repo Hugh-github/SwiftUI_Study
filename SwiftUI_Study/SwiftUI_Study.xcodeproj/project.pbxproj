@@ -23,6 +23,8 @@
 		72836B892A0E3CA700CA0CB8 /* OverLayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72836B882A0E3CA700CA0CB8 /* OverLayView.swift */; };
 		72836B8C2A0E412200CA0CB8 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72836B8B2A0E412200CA0CB8 /* Navigation.swift */; };
 		72836B8F2A0E417100CA0CB8 /* SecondNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72836B8E2A0E417100CA0CB8 /* SecondNav.swift */; };
+		728D8B562A25CAC1005424A5 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D8B552A25CAC1005424A5 /* PickerBasic.swift */; };
+		728D8B582A25D4C8005424A5 /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D8B572A25D4C7005424A5 /* DatePickerBasic.swift */; };
 		72926EDA2A14C60000FD204D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72926ED92A14C60000FD204D /* ListView.swift */; };
 		72B326192A0767D3008185FC /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B326182A0767D3008185FC /* LazyGridView.swift */; };
 		72B3261B2A07723F008185FC /* ButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3261A2A07723F008185FC /* ButtonTest.swift */; };
@@ -53,6 +55,8 @@
 		72836B882A0E3CA700CA0CB8 /* OverLayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLayView.swift; sourceTree = "<group>"; };
 		72836B8B2A0E412200CA0CB8 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		72836B8E2A0E417100CA0CB8 /* SecondNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNav.swift; sourceTree = "<group>"; };
+		728D8B552A25CAC1005424A5 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
+		728D8B572A25D4C7005424A5 /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
 		72926ED92A14C60000FD204D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		72B326182A0767D3008185FC /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 		72B3261A2A07723F008185FC /* ButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTest.swift; sourceTree = "<group>"; };
@@ -145,6 +149,15 @@
 			path = Sheet;
 			sourceTree = "<group>";
 		};
+		728D8B542A25CA96005424A5 /* Day10 */ = {
+			isa = PBXGroup;
+			children = (
+				728D8B552A25CAC1005424A5 /* PickerBasic.swift */,
+				728D8B572A25D4C7005424A5 /* DatePickerBasic.swift */,
+			);
+			path = Day10;
+			sourceTree = "<group>";
+		};
 		72926ED82A14C5EF00FD204D /* Day7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +205,7 @@
 				72926ED82A14C5EF00FD204D /* Day7 */,
 				72836A0A2A174B9E008E436A /* Day8 */,
 				720BB9252A2074A800A5C732 /* Day9 */,
+				728D8B542A25CA96005424A5 /* Day10 */,
 				72D68B492A02337100A57219 /* Assets.xcassets */,
 				72D68B4B2A02337100A57219 /* Preview Content */,
 			);
@@ -296,6 +310,7 @@
 			files = (
 				720BB92B2A2087FA00A5C732 /* ToggleAndStepper.swift in Sources */,
 				72D68B572A0242E100A57219 /* FrameView.swift in Sources */,
+				728D8B582A25D4C8005424A5 /* DatePickerBasic.swift in Sources */,
 				72D68B552A02368900A57219 /* TextView.swift in Sources */,
 				7201BA492A04EBDD0046A39C /* Padding.swift in Sources */,
 				72836A0C2A174BB9008E436A /* AlertBasic.swift in Sources */,
@@ -314,6 +329,7 @@
 				72B3261B2A07723F008185FC /* ButtonTest.swift in Sources */,
 				72836A0E2A17668A008E436A /* ContextMenuView.swift in Sources */,
 				7201BA452A04D50C0046A39C /* StackView.swift in Sources */,
+				728D8B562A25CAC1005424A5 /* PickerBasic.swift in Sources */,
 				727010B72A0CFA4500272BDD /* ExtractView.swift in Sources */,
 				72B326192A0767D3008185FC /* LazyGridView.swift in Sources */,
 				72836B8C2A0E412200CA0CB8 /* Navigation.swift in Sources */,
