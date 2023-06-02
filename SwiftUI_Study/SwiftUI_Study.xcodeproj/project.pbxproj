@@ -36,6 +36,8 @@
 		72D68B572A0242E100A57219 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D68B562A0242E100A57219 /* FrameView.swift */; };
 		72E06C832A0602E9007F00A0 /* Scroll_ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E06C822A0602E9007F00A0 /* Scroll_ForEach.swift */; };
 		72E06C852A061AB5007F00A0 /* InitEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E06C842A061AB5007F00A0 /* InitEnum.swift */; };
+		72F4435D2A29BA8100439F32 /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4435C2A29BA8100439F32 /* SliderBasic.swift */; };
+		72F4435F2A29C49100439F32 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4435E2A29C49100439F32 /* TabViewBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		72D68B562A0242E100A57219 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		72E06C822A0602E9007F00A0 /* Scroll_ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll_ForEach.swift; sourceTree = "<group>"; };
 		72E06C842A061AB5007F00A0 /* InitEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitEnum.swift; sourceTree = "<group>"; };
+		72F4435C2A29BA8100439F32 /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
+		72F4435E2A29C49100439F32 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,7 @@
 				72836A0A2A174B9E008E436A /* Day8 */,
 				720BB9252A2074A800A5C732 /* Day9 */,
 				728D8B542A25CA96005424A5 /* Day10 */,
+				72F4435B2A29BA6700439F32 /* Day11 */,
 				72D68B492A02337100A57219 /* Assets.xcassets */,
 				72D68B4B2A02337100A57219 /* Preview Content */,
 			);
@@ -236,6 +241,15 @@
 				72E06C842A061AB5007F00A0 /* InitEnum.swift */,
 			);
 			path = Day3;
+			sourceTree = "<group>";
+		};
+		72F4435B2A29BA6700439F32 /* Day11 */ = {
+			isa = PBXGroup;
+			children = (
+				72F4435C2A29BA8100439F32 /* SliderBasic.swift */,
+				72F4435E2A29C49100439F32 /* TabViewBasic.swift */,
+			);
+			path = Day11;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +328,7 @@
 				72D68B552A02368900A57219 /* TextView.swift in Sources */,
 				7201BA492A04EBDD0046A39C /* Padding.swift in Sources */,
 				72836A0C2A174BB9008E436A /* AlertBasic.swift in Sources */,
+				72F4435F2A29C49100439F32 /* TabViewBasic.swift in Sources */,
 				72D68B482A02337000A57219 /* ContentView.swift in Sources */,
 				727010B32A0CDD7700272BDD /* BindingBasic.swift in Sources */,
 				72836B8F2A0E417100CA0CB8 /* SecondNav.swift in Sources */,
@@ -333,6 +348,7 @@
 				727010B72A0CFA4500272BDD /* ExtractView.swift in Sources */,
 				72B326192A0767D3008185FC /* LazyGridView.swift in Sources */,
 				72836B8C2A0E412200CA0CB8 /* Navigation.swift in Sources */,
+				72F4435D2A29BA8100439F32 /* SliderBasic.swift in Sources */,
 				7201BA472A04E2830046A39C /* Background.swift in Sources */,
 				72836B872A0E381100CA0CB8 /* Sheet.swift in Sources */,
 			);
