@@ -13,6 +13,8 @@
 		720BB9272A2074BE00A5C732 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BB9262A2074BE00A5C732 /* ActionSheetView.swift */; };
 		720BB9292A2083DE00A5C732 /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BB9282A2083DE00A5C732 /* TextFieldBasic.swift */; };
 		720BB92B2A2087FA00A5C732 /* ToggleAndStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BB92A2A2087FA00A5C732 /* ToggleAndStepper.swift */; };
+		7254A68E2A2C66E100EE8224 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254A68D2A2C66E100EE8224 /* OnAppearBasic.swift */; };
+		7254A6902A2C6B2E00EE8224 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254A68F2A2C6B2E00EE8224 /* OnTabGestureBasic.swift */; };
 		727010B12A0CD71200272BDD /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B02A0CD71200272BDD /* StateBasic.swift */; };
 		727010B32A0CDD7700272BDD /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B22A0CDD7700272BDD /* BindingBasic.swift */; };
 		727010B52A0CDDEA00272BDD /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B42A0CDDEA00272BDD /* SubView.swift */; };
@@ -47,6 +49,8 @@
 		720BB9262A2074BE00A5C732 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		720BB9282A2083DE00A5C732 /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
 		720BB92A2A2087FA00A5C732 /* ToggleAndStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAndStepper.swift; sourceTree = "<group>"; };
+		7254A68D2A2C66E100EE8224 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
+		7254A68F2A2C6B2E00EE8224 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		727010B02A0CD71200272BDD /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
 		727010B22A0CDD7700272BDD /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
 		727010B42A0CDDEA00272BDD /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,15 @@
 				720BB92A2A2087FA00A5C732 /* ToggleAndStepper.swift */,
 			);
 			path = Day9;
+			sourceTree = "<group>";
+		};
+		7254A68C2A2C64F900EE8224 /* Day12 */ = {
+			isa = PBXGroup;
+			children = (
+				7254A68D2A2C66E100EE8224 /* OnAppearBasic.swift */,
+				7254A68F2A2C6B2E00EE8224 /* OnTabGestureBasic.swift */,
+			);
+			path = Day12;
 			sourceTree = "<group>";
 		};
 		727010AE2A0CD6B600272BDD /* Day5 */ = {
@@ -211,6 +224,7 @@
 				720BB9252A2074A800A5C732 /* Day9 */,
 				728D8B542A25CA96005424A5 /* Day10 */,
 				72F4435B2A29BA6700439F32 /* Day11 */,
+				7254A68C2A2C64F900EE8224 /* Day12 */,
 				72D68B492A02337100A57219 /* Assets.xcassets */,
 				72D68B4B2A02337100A57219 /* Preview Content */,
 			);
@@ -323,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				720BB92B2A2087FA00A5C732 /* ToggleAndStepper.swift in Sources */,
+				7254A6902A2C6B2E00EE8224 /* OnTabGestureBasic.swift in Sources */,
 				72D68B572A0242E100A57219 /* FrameView.swift in Sources */,
 				728D8B582A25D4C8005424A5 /* DatePickerBasic.swift in Sources */,
 				72D68B552A02368900A57219 /* TextView.swift in Sources */,
@@ -336,6 +351,7 @@
 				72836B892A0E3CA700CA0CB8 /* OverLayView.swift in Sources */,
 				72D68B462A02337000A57219 /* SwiftUI_StudyApp.swift in Sources */,
 				720BB9292A2083DE00A5C732 /* TextFieldBasic.swift in Sources */,
+				7254A68E2A2C66E100EE8224 /* OnAppearBasic.swift in Sources */,
 				72E06C852A061AB5007F00A0 /* InitEnum.swift in Sources */,
 				720BB9272A2074BE00A5C732 /* ActionSheetView.swift in Sources */,
 				727010B12A0CD71200272BDD /* StateBasic.swift in Sources */,
