@@ -13,6 +13,9 @@
 		720BB9272A2074BE00A5C732 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BB9262A2074BE00A5C732 /* ActionSheetView.swift */; };
 		720BB9292A2083DE00A5C732 /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BB9282A2083DE00A5C732 /* TextFieldBasic.swift */; };
 		720BB92B2A2087FA00A5C732 /* ToggleAndStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BB92A2A2087FA00A5C732 /* ToggleAndStepper.swift */; };
+		7220FBB52AEA20A5006810DC /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBB42AEA20A5006810DC /* Follower.swift */; };
+		7220FBB72AEA2752006810DC /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBB62AEA2752006810DC /* ProfileDetail.swift */; };
+		7220FBBB2AEA3673006810DC /* ProfileActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBBA2AEA3673006810DC /* ProfileActionButton.swift */; };
 		7254A68E2A2C66E100EE8224 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254A68D2A2C66E100EE8224 /* OnAppearBasic.swift */; };
 		7254A6902A2C6B2E00EE8224 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254A68F2A2C6B2E00EE8224 /* OnTabGestureBasic.swift */; };
 		727010B12A0CD71200272BDD /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B02A0CD71200272BDD /* StateBasic.swift */; };
@@ -31,6 +34,7 @@
 		72B326192A0767D3008185FC /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B326182A0767D3008185FC /* LazyGridView.swift */; };
 		72B3261B2A07723F008185FC /* ButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3261A2A07723F008185FC /* ButtonTest.swift */; };
 		72CC544D2AEA1A1A00719945 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC544C2AEA1A1A00719945 /* ProfileView.swift */; };
+		72CC54502AEA1C3A00719945 /* ProfileCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CC544F2AEA1C3A00719945 /* ProfileCircleImage.swift */; };
 		72D68B462A02337000A57219 /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D68B452A02337000A57219 /* SwiftUI_StudyApp.swift */; };
 		72D68B482A02337000A57219 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D68B472A02337000A57219 /* ContentView.swift */; };
 		72D68B4A2A02337100A57219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D68B492A02337100A57219 /* Assets.xcassets */; };
@@ -50,6 +54,9 @@
 		720BB9262A2074BE00A5C732 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		720BB9282A2083DE00A5C732 /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
 		720BB92A2A2087FA00A5C732 /* ToggleAndStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAndStepper.swift; sourceTree = "<group>"; };
+		7220FBB42AEA20A5006810DC /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		7220FBB62AEA2752006810DC /* ProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetail.swift; sourceTree = "<group>"; };
+		7220FBBA2AEA3673006810DC /* ProfileActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButton.swift; sourceTree = "<group>"; };
 		7254A68D2A2C66E100EE8224 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
 		7254A68F2A2C6B2E00EE8224 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		727010B02A0CD71200272BDD /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
@@ -68,6 +75,7 @@
 		72B326182A0767D3008185FC /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 		72B3261A2A07723F008185FC /* ButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTest.swift; sourceTree = "<group>"; };
 		72CC544C2AEA1A1A00719945 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		72CC544F2AEA1C3A00719945 /* ProfileCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCircleImage.swift; sourceTree = "<group>"; };
 		72D68B422A02337000A57219 /* SwiftUI_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D68B452A02337000A57219 /* SwiftUI_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyApp.swift; sourceTree = "<group>"; };
 		72D68B472A02337000A57219 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,9 +205,22 @@
 		72CC544B2AEA1A0600719945 /* InstargramClone */ = {
 			isa = PBXGroup;
 			children = (
-				72CC544C2AEA1A1A00719945 /* ProfileView.swift */,
+				72D68B472A02337000A57219 /* ContentView.swift */,
+				72CC544E2AEA1B7B00719945 /* Profile */,
 			);
 			path = InstargramClone;
+			sourceTree = "<group>";
+		};
+		72CC544E2AEA1B7B00719945 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				72CC544C2AEA1A1A00719945 /* ProfileView.swift */,
+				7220FBB62AEA2752006810DC /* ProfileDetail.swift */,
+				72CC544F2AEA1C3A00719945 /* ProfileCircleImage.swift */,
+				7220FBB42AEA20A5006810DC /* Follower.swift */,
+				7220FBBA2AEA3673006810DC /* ProfileActionButton.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		72D68B392A02337000A57219 = {
@@ -222,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				72D68B452A02337000A57219 /* SwiftUI_StudyApp.swift */,
-				72D68B472A02337000A57219 /* ContentView.swift */,
 				72CC544B2AEA1A0600719945 /* InstargramClone */,
 				72D68B532A02367100A57219 /* Day1 */,
 				7201BA432A04D4F70046A39C /* Day2 */,
@@ -350,7 +370,9 @@
 				720BB92B2A2087FA00A5C732 /* ToggleAndStepper.swift in Sources */,
 				7254A6902A2C6B2E00EE8224 /* OnTabGestureBasic.swift in Sources */,
 				72D68B572A0242E100A57219 /* FrameView.swift in Sources */,
+				7220FBBB2AEA3673006810DC /* ProfileActionButton.swift in Sources */,
 				728D8B582A25D4C8005424A5 /* DatePickerBasic.swift in Sources */,
+				7220FBB72AEA2752006810DC /* ProfileDetail.swift in Sources */,
 				72D68B552A02368900A57219 /* TextView.swift in Sources */,
 				7201BA492A04EBDD0046A39C /* Padding.swift in Sources */,
 				72836A0C2A174BB9008E436A /* AlertBasic.swift in Sources */,
@@ -364,6 +386,8 @@
 				720BB9292A2083DE00A5C732 /* TextFieldBasic.swift in Sources */,
 				7254A68E2A2C66E100EE8224 /* OnAppearBasic.swift in Sources */,
 				72E06C852A061AB5007F00A0 /* InitEnum.swift in Sources */,
+				7220FBB52AEA20A5006810DC /* Follower.swift in Sources */,
+				72CC54502AEA1C3A00719945 /* ProfileCircleImage.swift in Sources */,
 				720BB9272A2074BE00A5C732 /* ActionSheetView.swift in Sources */,
 				727010B12A0CD71200272BDD /* StateBasic.swift in Sources */,
 				72E06C832A0602E9007F00A0 /* Scroll_ForEach.swift in Sources */,
