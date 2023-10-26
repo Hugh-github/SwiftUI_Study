@@ -16,6 +16,8 @@
 		7220FBB52AEA20A5006810DC /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBB42AEA20A5006810DC /* Follower.swift */; };
 		7220FBB72AEA2752006810DC /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBB62AEA2752006810DC /* ProfileDetail.swift */; };
 		7220FBBB2AEA3673006810DC /* ProfileActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBBA2AEA3673006810DC /* ProfileActionButton.swift */; };
+		7220FBBF2AEA3ABD006810DC /* PostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBBE2AEA3ABD006810DC /* PostingView.swift */; };
+		7220FBC12AEA3AD6006810DC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220FBC02AEA3AD6006810DC /* Tab.swift */; };
 		7254A68E2A2C66E100EE8224 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254A68D2A2C66E100EE8224 /* OnAppearBasic.swift */; };
 		7254A6902A2C6B2E00EE8224 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254A68F2A2C6B2E00EE8224 /* OnTabGestureBasic.swift */; };
 		727010B12A0CD71200272BDD /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727010B02A0CD71200272BDD /* StateBasic.swift */; };
@@ -57,6 +59,8 @@
 		7220FBB42AEA20A5006810DC /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		7220FBB62AEA2752006810DC /* ProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetail.swift; sourceTree = "<group>"; };
 		7220FBBA2AEA3673006810DC /* ProfileActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButton.swift; sourceTree = "<group>"; };
+		7220FBBE2AEA3ABD006810DC /* PostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingView.swift; sourceTree = "<group>"; };
+		7220FBC02AEA3AD6006810DC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		7254A68D2A2C66E100EE8224 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
 		7254A68F2A2C6B2E00EE8224 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		727010B02A0CD71200272BDD /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
@@ -118,6 +122,26 @@
 				720BB92A2A2087FA00A5C732 /* ToggleAndStepper.swift */,
 			);
 			path = Day9;
+			sourceTree = "<group>";
+		};
+		7220FBBC2AEA3A5D006810DC /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				7220FBB62AEA2752006810DC /* ProfileDetail.swift */,
+				72CC544F2AEA1C3A00719945 /* ProfileCircleImage.swift */,
+				7220FBB42AEA20A5006810DC /* Follower.swift */,
+				7220FBBA2AEA3673006810DC /* ProfileActionButton.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		7220FBBD2AEA3A71006810DC /* BottomContent */ = {
+			isa = PBXGroup;
+			children = (
+				7220FBBE2AEA3ABD006810DC /* PostingView.swift */,
+				7220FBC02AEA3AD6006810DC /* Tab.swift */,
+			);
+			path = BottomContent;
 			sourceTree = "<group>";
 		};
 		7254A68C2A2C64F900EE8224 /* Day12 */ = {
@@ -215,10 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				72CC544C2AEA1A1A00719945 /* ProfileView.swift */,
-				7220FBB62AEA2752006810DC /* ProfileDetail.swift */,
-				72CC544F2AEA1C3A00719945 /* ProfileCircleImage.swift */,
-				7220FBB42AEA20A5006810DC /* Follower.swift */,
-				7220FBBA2AEA3673006810DC /* ProfileActionButton.swift */,
+				7220FBBC2AEA3A5D006810DC /* Top */,
+				7220FBBD2AEA3A71006810DC /* BottomContent */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -378,6 +400,7 @@
 				72836A0C2A174BB9008E436A /* AlertBasic.swift in Sources */,
 				72F4435F2A29C49100439F32 /* TabViewBasic.swift in Sources */,
 				72D68B482A02337000A57219 /* ContentView.swift in Sources */,
+				7220FBC12AEA3AD6006810DC /* Tab.swift in Sources */,
 				727010B32A0CDD7700272BDD /* BindingBasic.swift in Sources */,
 				72836B8F2A0E417100CA0CB8 /* SecondNav.swift in Sources */,
 				727010B52A0CDDEA00272BDD /* SubView.swift in Sources */,
@@ -397,6 +420,7 @@
 				7201BA452A04D50C0046A39C /* StackView.swift in Sources */,
 				72CC544D2AEA1A1A00719945 /* ProfileView.swift in Sources */,
 				728D8B562A25CAC1005424A5 /* PickerBasic.swift in Sources */,
+				7220FBBF2AEA3ABD006810DC /* PostingView.swift in Sources */,
 				727010B72A0CFA4500272BDD /* ExtractView.swift in Sources */,
 				72B326192A0767D3008185FC /* LazyGridView.swift in Sources */,
 				72836B8C2A0E412200CA0CB8 /* Navigation.swift in Sources */,
