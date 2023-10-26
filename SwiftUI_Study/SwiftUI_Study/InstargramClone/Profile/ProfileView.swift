@@ -11,19 +11,7 @@ struct ProfileView: View {
     var body: some View {
         VStack {
             ProfileDetail()
-            
-            HStack {
-                ProfileActionButton(title: "프로필 편집") {
-                    print("편집")
-                }
-                
-                Spacer()
-                
-                ProfileActionButton(title: "프로필 공유") {
-                    print("공유")
-                }
-            }
-            .padding([.leading, .trailing], 30)
+            PostingView()
         }
     }
 }
