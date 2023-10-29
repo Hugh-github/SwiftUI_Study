@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        VStack {
-            ProfileDetail()
-            PostingView(selectedIndex: 0)
+        ScrollView {
+            VStack {
+                ProfileDetail()
+                PostingView(selectedIndex: 0)
+            }
         }
     }
 }
