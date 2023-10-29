@@ -11,34 +11,27 @@ import SwiftUI
 // Button 보다는 Grid로 만들어 onTapGesture 활용하자
 
 struct Tab: View {
-    @State var isSelected: Bool = false
-    var imageName: String
+    @Binding var isSelected: Bool // Binding으로 해야 하는 이유 : 양방향이 필요하다 즉 selectedIndex가 변할 때 선택 여부가 바뀌기 때문에 Binding으로 설정해야 한다.
+    let imageName: String
     
     var body: some View {
         VStack {
-            Button {
-                isSelected.toggle()
-            } label: {
-                VStack {
-                    Image(systemName: imageName)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.black)
-                        
-                    Spacer()
-                    
-                    Rectangle()
-                        .foregroundColor(isSelected ? .black : .white)
-                        .frame(height: 2)
-                }
-            }
-            .padding([.leading, .trailing])
+            Image(systemName: imageName)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(.black)
+                
+            Spacer()
+            
+            Rectangle()
+                .foregroundColor(isSelected ? .black : .white)
+                .frame(height: 2)
         }
     }
 }
 
 struct Tab_Previews: PreviewProvider {
     static var previews: some View {
-        Tab(imageName: "camera")
+        Tab(isSelected: .constant(true), imageName: "camera")
     }
 }

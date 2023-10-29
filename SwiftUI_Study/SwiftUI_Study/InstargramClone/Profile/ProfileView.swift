@@ -11,7 +11,7 @@ struct ProfileView: View {
     var body: some View {
         VStack {
             ProfileDetail()
-            PostingView()
+            PostingView(selectedIndex: 0)
         }
     }
 }
