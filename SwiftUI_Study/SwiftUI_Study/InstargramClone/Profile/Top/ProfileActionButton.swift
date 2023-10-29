@@ -19,7 +19,7 @@ struct ProfileActionButton: View {
             Text(title)
                 .foregroundColor(.black)
                 .fontWeight(.medium)
-                .frame(width: 100)
+                .frame(maxWidth: .infinity)
                 .padding([.top, .bottom], 7)
                 .padding([.leading, .trailing])
                 .background(color, in: Rectangle())
@@ -28,7 +28,7 @@ struct ProfileActionButton: View {
     }
     
     init(
-        color: Color = Color(red: 179/255, green: 179/255, blue: 179/255),
+        color: Color = Color(red: 211/255, green: 211/255, blue: 211/255),
         title: String,
         action: @escaping () -> Void
     ) {

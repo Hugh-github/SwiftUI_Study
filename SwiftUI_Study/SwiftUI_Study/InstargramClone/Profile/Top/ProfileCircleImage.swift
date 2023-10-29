@@ -15,7 +15,7 @@ struct ProfileCircleImage: View {
             Image(systemName: "person.crop.circle.fill")
                 .font(.system(size: 70))
                 .aspectRatio(contentMode: .fit)
-                .foregroundColor(.black)
+                .foregroundColor(Color(red: 192/255, green: 192/255, blue: 192/255))
             
             Text(name)
                 .font(.subheadline)

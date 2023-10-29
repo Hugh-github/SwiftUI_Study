@@ -19,20 +19,18 @@ struct ProfileDetail: View {
                     Follower(count: 0, contentName: "팔로잉")
                 }
             }
-            .padding()
+            .padding([.trailing, .bottom])
             
-            HStack {
+            HStack(spacing: 10) {
                 ProfileActionButton(title: "프로필 편집") {
                     print("편집")
                 }
-                
-                Spacer()
-                
+
                 ProfileActionButton(title: "프로필 공유") {
                     print("공유")
                 }
             }
-            .padding([.leading, .trailing], 30)
+            .padding([.leading, .trailing])
         }
     }
 }
