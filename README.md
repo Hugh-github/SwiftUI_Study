@@ -36,7 +36,8 @@ Scroll 가능한 Tab bar를 만드는 과정에서 2가지 접근 방법을 고�
 
 
 ### 10.31
-UIKit의 UIPageViewController를 연동해 사용하는 방법은 SwiftUI의 TabView를 사용하는 것과 유사하다. (**동일한 문제점과 UI를 가진다**.)
+#### UIPageViewController
+SwiftUI의 TabView를 사용하는 것과 유사하다.(문제점도 유사하다.)
 
 ```swift
 import UIKit
@@ -107,3 +108,12 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
     }
 }
 ```
+#### ScrollView를 이용한 방법 업데이트
+모든 컨텐츠의 높이가 가장 긴 검은색 사각형의 높이와 같다. x축으로 Scroll하면 위에 Tab이 변하지 않는다.
+<p align="center">
+    <img src="https://github.com/Hugh-github/SwiftUI_Study/assets/102569735/b7cca176-6442-4552-b268-163a3bf6937f" height="330">
+</p>
+
+### 결론
+정확한 방법을 찾지 못했지만 가장 편하고 좋은 방법은 TabView를 사용하고 Dynamic한 Size를 설정하는 것이다
+
