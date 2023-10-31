@@ -18,12 +18,12 @@ struct ProfileView: View {
                 
                 // MARK: TabView & ScrollView
                 PostingView(selectedIndex: 0)
-                    .scaledToFit()
-                
+
                 // MARK: UIPageViewController
 //                PageView(posting: [PostingView(selectedIndex: $selectedIndex), PostingView(selectedIndex: $selectedIndex), PostingView(selectedIndex: $selectedIndex)])
             }
         }
+        .frame(maxHeight: .infinity)
     }
 }
 
