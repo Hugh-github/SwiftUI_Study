@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ProfileView()
+        
+        // MARK: UIPageViewController
+//        ProfileView(selectedIndex: 0)
     }
 }
 

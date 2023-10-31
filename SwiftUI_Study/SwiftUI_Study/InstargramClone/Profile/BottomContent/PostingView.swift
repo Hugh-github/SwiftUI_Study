@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// MARK: Tab만 가능한 Version
+// MARK: Tab만 가능한 Version (UIPageViewController와 사용 가능)
 //struct PostingView: View {
 //    @Binding var selectedIndex: Int
 //    
@@ -130,6 +130,8 @@ struct PostingView: View {
 struct PostingView_Previews: PreviewProvider {
     static var previews: some View {
         PostingView(selectedIndex: 0)
+        
+        // MARK: UIPageViewController
 //        PostingView(selectedIndex: .constant(0))
     }
 }
