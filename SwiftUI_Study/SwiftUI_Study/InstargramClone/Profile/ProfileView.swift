@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ProfileView: View {
+//    @State var selectedIndex: Int
+    
     var body: some View {
         ScrollView {
             VStack {
                 ProfileDetail()
                 PostingView(selectedIndex: 0)
+                    .scaledToFit()
+//                PageView(posting: [PostingView(selectedIndex: $selectedIndex), PostingView(selectedIndex: $selectedIndex), PostingView(selectedIndex: $selectedIndex)])
             }
         }
     }
@@ -21,5 +25,6 @@ struct ProfileView: View {
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
         ProfileView()
+//        ProfileView(selectedIndex: 0)
     }
 }

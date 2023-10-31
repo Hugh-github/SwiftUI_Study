@@ -50,6 +50,8 @@
 		72E0BD7E2AEE23A800ED5990 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E0BD7D2AEE23A800ED5990 /* Player.swift */; };
 		72F4435D2A29BA8100439F32 /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4435C2A29BA8100439F32 /* SliderBasic.swift */; };
 		72F4435F2A29C49100439F32 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4435E2A29C49100439F32 /* TabViewBasic.swift */; };
+		72FF9A9A2AF0AFBA00BDA9B9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF9A992AF0AFBA00BDA9B9 /* PageViewController.swift */; };
+		72FF9A9C2AF0B4AE00BDA9B9 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF9A9B2AF0B4AE00BDA9B9 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +99,8 @@
 		72E0BD7D2AEE23A800ED5990 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		72F4435C2A29BA8100439F32 /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
 		72F4435E2A29C49100439F32 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
+		72FF9A992AF0AFBA00BDA9B9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		72FF9A9B2AF0B4AE00BDA9B9 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 		7220FBBD2AEA3A71006810DC /* BottomContent */ = {
 			isa = PBXGroup;
 			children = (
+				72FF9A982AF0AFAA00BDA9B9 /* Paging */,
 				7220FBBE2AEA3ABD006810DC /* PostingView.swift */,
 				72E0BD7B2AEE22C500ED5990 /* TopTap.swift */,
 				7220FBC02AEA3AD6006810DC /* Tab.swift */,
@@ -328,6 +333,15 @@
 			path = Day11;
 			sourceTree = "<group>";
 		};
+		72FF9A982AF0AFAA00BDA9B9 /* Paging */ = {
+			isa = PBXGroup;
+			children = (
+				72FF9A992AF0AFBA00BDA9B9 /* PageViewController.swift */,
+				72FF9A9B2AF0B4AE00BDA9B9 /* PageView.swift */,
+			);
+			path = Paging;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -408,11 +422,13 @@
 				7201BA492A04EBDD0046A39C /* Padding.swift in Sources */,
 				72836A0C2A174BB9008E436A /* AlertBasic.swift in Sources */,
 				72F4435F2A29C49100439F32 /* TabViewBasic.swift in Sources */,
+				72FF9A9C2AF0B4AE00BDA9B9 /* PageView.swift in Sources */,
 				72D68B482A02337000A57219 /* ContentView.swift in Sources */,
 				7220FBC12AEA3AD6006810DC /* Tab.swift in Sources */,
 				727010B32A0CDD7700272BDD /* BindingBasic.swift in Sources */,
 				72836B8F2A0E417100CA0CB8 /* SecondNav.swift in Sources */,
 				727010B52A0CDDEA00272BDD /* SubView.swift in Sources */,
+				72FF9A9A2AF0AFBA00BDA9B9 /* PageViewController.swift in Sources */,
 				72836B892A0E3CA700CA0CB8 /* OverLayView.swift in Sources */,
 				72D68B462A02337000A57219 /* SwiftUI_StudyApp.swift in Sources */,
 				720BB9292A2083DE00A5C732 /* TextFieldBasic.swift in Sources */,

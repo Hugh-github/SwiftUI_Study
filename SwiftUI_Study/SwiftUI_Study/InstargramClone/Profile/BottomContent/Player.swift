@@ -23,7 +23,7 @@ struct Player: View {
         ) {
             ForEach(0..<playerData.count, id: \.self) { index in // id를 설정하는 이유는 배열이 변경될 수 있기 때문이다.
                 Rectangle()
-                    .fill(.green)
+                    .fill(.blue)
                     .frame(height: 200)
                     .overlay (
                         Text(playerData[index])
